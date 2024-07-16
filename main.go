@@ -158,8 +158,8 @@ func NewDevice(name string, host string) *Device {
 		Name:       name,
 		sessionID:  "",
 		apiURL:     apiURL,
-		username:   "",
-		password:   "",
+		username:   "admin",
+		password:   "admin",
 		Datapoints: make(map[DatapointUID]Datapoint),
 	}
 }
